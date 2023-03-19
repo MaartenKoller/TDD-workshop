@@ -11,7 +11,10 @@ public class Calculator {
     }
 
     public void sum5(int a, int b) {
-        // test 5 so bytes is not what we want huh, who knew? let's uses int's
+    }
+
+    public void sum6(int a, int b) {
+        // yup same as 5, nothing to see here, move along :)
     }
 
     public int sum7(int a, int b) {

@@ -72,8 +72,8 @@ class SpringbootdemoApplicationTests {
         // let's add a test case to be more sure it's working as intended
         assertEquals(2, calculator.sum9(1, 1));
         assertEquals(4, calculator.sum9(2, 2));
-        // since by now you should have a graps of the process, I've added the code needed to make this test
-        // go green already, what could possibly be wrong?
+        // since by now you should have a grasp of the process, I've already added the code to make
+        // this test go green, what could possibly be wrong?
     }
 
     @Test
