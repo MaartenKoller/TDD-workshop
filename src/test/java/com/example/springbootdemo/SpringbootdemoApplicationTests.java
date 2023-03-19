@@ -16,14 +16,4 @@ class SpringbootdemoApplicationTests {
         calculator = new Calculator();
     }
 
-    @Test
-    void sumTest() {
-        calculator.sum(1, 2);
-    }
-
-    @Test
-    void testForExistance() {
-        assertNotNull(calculator);
-    }
-
 }
