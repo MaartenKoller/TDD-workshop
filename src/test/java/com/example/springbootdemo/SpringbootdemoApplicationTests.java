@@ -56,9 +56,9 @@ class SpringbootdemoApplicationTests {
 
     @Test
     void testSum7() {
-        // the code now had a return value
+        // the code now has a return value
         assertEquals(2, calculator.sum7(1, 1));
-        // which makes the test now valid again, but it goes red all the same
+        // which makes the test now valid again, but it goes red (fails) all the same
     }
 
     @Test
