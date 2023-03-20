@@ -1,6 +1,5 @@
-package com.example.springbootdemo;
+package com.example.tddworkshop;
 
-import com.example.tddworkshop.Calculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.boot.test.context.SpringBootTest;
 
