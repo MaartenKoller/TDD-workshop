@@ -1,4 +1,4 @@
-package com.example.springbootdemo;
+package com.example.tddworkshop;
 
 public class Calculator {
 

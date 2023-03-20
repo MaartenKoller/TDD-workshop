@@ -1,13 +1,13 @@
-package com.example.springbootdemo;
+package com.example.tddworkshop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootdemoApplication {
+public class TddWorkshopApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootdemoApplication.class, args);
+        SpringApplication.run(TddWorkshopApplication.class, args);
         System.out.println("hello world");
 
 

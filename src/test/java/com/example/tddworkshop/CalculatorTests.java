@@ -1,4 +1,4 @@
-package com.example.springbootdemo;
+package com.example.tddworkshop;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
