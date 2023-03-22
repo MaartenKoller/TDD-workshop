@@ -1,4 +1,4 @@
-package com.example.tddworkshop;
+package com.technikoller.tddworkshop;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

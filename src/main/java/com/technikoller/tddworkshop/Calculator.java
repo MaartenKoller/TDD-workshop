@@ -1,4 +1,4 @@
-package com.example.tddworkshop;
+package com.technikoller.tddworkshop;
 
 public class Calculator {
 
