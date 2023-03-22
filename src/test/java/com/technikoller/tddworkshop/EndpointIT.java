@@ -1,4 +1,4 @@
-package com.example.tddworkshop;
+package com.technikoller.tddworkshop;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
