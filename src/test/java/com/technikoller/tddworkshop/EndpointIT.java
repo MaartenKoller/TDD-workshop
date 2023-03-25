@@ -11,6 +11,8 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 @WebMvcTest
 @ExtendWith(SpringExtension.class)
@@ -20,12 +22,16 @@ class EndpointIT {
     private MockMvc mockMvc;
 
     @Test
-    public void sumEndpoint() throws Exception {
+    public void divisionEndpoint() throws Exception {
         // call the endpoint and get a result
-        ResultActions response = mockMvc.perform(MockMvcRequestBuilders.get("/sum"));
+        ResultActions response = mockMvc.perform(MockMvcRequestBuilders.get("/divide")
+                .param("digitOne", String.valueOf(1))
+                .param("digitTwo", String.valueOf(2)));
         response.andExpect(MockMvcResultMatchers.status().isOk());
         response.andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON));
         System.out.println(response.andReturn().getResponse().getContentType());
         System.out.println(response.andReturn().getResponse().getContentAsString());
+        response.andExpect(MockMvcResultMatchers.content().json("3"));
+        assertEquals("1", response.andReturn().getResponse().getContentAsString());
     }
 }
