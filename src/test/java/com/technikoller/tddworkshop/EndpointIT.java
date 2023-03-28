@@ -31,7 +31,7 @@ class EndpointIT {
         response.andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON));
         System.out.println(response.andReturn().getResponse().getContentType());
         System.out.println(response.andReturn().getResponse().getContentAsString());
-        response.andExpect(MockMvcResultMatchers.content().json("3"));
-        assertEquals("1", response.andReturn().getResponse().getContentAsString());
+        response.andExpect(MockMvcResultMatchers.content().json("0.5"));
+        assertEquals("0.5", response.andReturn().getResponse().getContentAsString());
     }
 }
